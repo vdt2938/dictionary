@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+    
+body{
+    
+    
+    background-color: tan;
+}
+.header,
+.sidebar,
+.main{
+    border: solid black;
+    padding: 5px;
+}
+.header{
+    grid-area: 'header';
+}
+.sidebar{
+    grid-area: 'sidebar';
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-area: 'main';
+}
+h3,
+h4{
+    text-align: center;
+}
+.book{
+    
+    border: solid black;
+}
+img{
+    background-color: black;
+    width: 100px;
+    height: 150px;
+    max-width: 100px;
+    max-height: 150px;
+    color: white;
+}
+
+$first-color: blue;
+
+div{
+    background-color: $first-color;
+}
